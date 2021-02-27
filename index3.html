@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+      .spider {
+      	display: inline-block;
+      	background: url(spider-no-results.png) no-repeat top;
+      	background-size: contain;
+      	width: 200px; height: 251px;
+      	transform-origin: 50% 10%;
+      	animation-duration: 1.5s;
+      	animation-name: SystemResultsEmpty__animateSpider;
+      	animation-iteration-count: infinite;
+      	animation-direction: alternate;
+      	animation-timing-function: ease-in-out;
+      }
+
+      @keyframes SystemResultsEmpty__animateSpider{
+      	0% { transform: rotate(2deg) translateX(-1px) } to { transform: rotate(-2deg) translateX(1px) }
+      }
+</style>
+  </head>
+  <body>
+    <div class="spider">
+
+    </div>
+  </body>
+</html>
